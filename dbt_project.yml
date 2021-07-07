@@ -1,7 +1,7 @@
 # Name your package! Package names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'airbyte_utils'
+name: 'poke_dbt'
 version: '1.0'
 config-version: 2
 
