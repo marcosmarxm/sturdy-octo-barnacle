@@ -1,0 +1,24 @@
+version: 2
+sources:
+- name: public
+  quoting:
+    database: true
+    schema: false
+    identifier: false
+  tables:
+  - name: _airbyte_raw_hubspot_campaigns
+  - name: _airbyte_raw_hubspot_companies
+  - name: _airbyte_raw_hubspot_contact_lists
+  - name: _airbyte_raw_hubspot_contacts
+  - name: _airbyte_raw_hubspot_deal_pipelines
+  - name: _airbyte_raw_hubspot_deals
+  - name: _airbyte_raw_hubspot_email_events
+  - name: _airbyte_raw_hubspot_engagements
+  - name: _airbyte_raw_hubspot_forms
+  - name: _airbyte_raw_hubspot_line_items
+  - name: _airbyte_raw_hubspot_owners
+  - name: _airbyte_raw_hubspot_products
+  - name: _airbyte_raw_hubspot_quotes
+  - name: _airbyte_raw_hubspot_subscription_changes
+  - name: _airbyte_raw_hubspot_tickets
+  - name: _airbyte_raw_hubspot_workflows
