@@ -1,4 +1,4 @@
-{{ config(schema="public", tags=["nested"]) }}
+{{ config(schema="public", tags=["datamart"]) }}
 
 select
     a.name,
