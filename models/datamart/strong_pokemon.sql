@@ -1,4 +1,4 @@
-{{ config(schema="public", tags=["datamart"]) }}
+--{{ config(schema="datamart", tags=["datamart"]) }}
 
 select
     a.name,
