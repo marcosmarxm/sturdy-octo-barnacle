@@ -50,6 +50,8 @@ models:
         +tags: normalized_tables
         +materialized: table
     +materialized: table
+    datamart:
+      +materilized: table
 
 vars:
   dbt_utils_dispatch_list: ['airbyte_utils']
